@@ -1,0 +1,51 @@
+body{
+background-image:  url("https://images.pexels.com/photos/4253053/pexels-photo-4253053.jpeg");
+background-size:cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center;
+margin: 0%;
+color: white;
+}
+#nav a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-size: xx-large;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+#nav  :hover{
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
+#heading{
+    text-align: center;
+}
+hr{
+   width: 80%;}
+p{
+font-size: xx-large;
+ text-align: center;
+}
+.form{
+    text-align: center;
+    background-color:  rgba(255, 255, 255, 0.9);
+    width: 250px;
+    height: 250px;
+    margin-left: 30% ;
+    border-radius: 15px;
+    box-shadow: 0px 5px 20px rgba(0, 0,0, 0.4);
+    color: black; 
+}
+button{
+    color: rgb(0, 0, 0);
+    background-color: rgb(245, 239, 239);
+}
+button:hover{
+    background-color: black;
+    color: white;
+padding:3px;
+}

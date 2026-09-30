@@ -1,0 +1,162 @@
+body{
+    background-image:url(travel-background.svg);
+background-size:cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+margin: 0%;}
+h1{color: white;}
+.header{
+    background-color: hsl(0, 0%, 45%);
+    padding: 23px 0;
+}
+h1{
+    text-align: center;
+}
+#home{
+    text-decoration: underline;
+}
+.header a:hover{background-color:hsl(0, 0%, 6%) ;
+}
+.header a{
+    text-decoration: none;
+    padding: 23px 23px 23px ;
+   color: white;
+}
+#Home {
+    text-align: center;
+    color: white;
+    padding: 80px 20px;
+}
+
+#Home h2 {
+    font-size: 40px;
+}
+
+#Home p {
+    font-size: 20px;
+}
+
+#Home button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: grab;
+    font-size: 16px;
+}
+
+#Home button:hover {
+    background-color: black;
+    color: white;
+    cursor: grab;
+}
+#Home button a{
+    text-decoration: none;
+}
+/* =========================
+   WHY TRAVEL WITH VIJAY
+========================= */
+
+.why-travel {
+
+    margin-top: 80px;
+
+    text-align: center;
+}
+
+
+.why-travel > h1 {
+
+    font-size: 32px;
+
+    margin-bottom: 15px;
+}
+
+
+.why-intro {
+
+    max-width: 700px;
+
+    margin: 0 auto 40px;
+
+    font-size: 18px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================
+   WHY CONTAINER
+========================= */
+
+.why-container {
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 220px);
+
+    gap: 25px;
+
+    justify-content: center;
+}
+
+
+/* =========================
+   WHY CARD
+========================= */
+
+.why-card {
+
+    background-color: rgba(0, 0, 0, 0.70);
+
+    padding: 25px 20px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+
+    transition: 0.3s;
+}
+
+
+.why-card:hover {
+
+    transform: translateY(-10px) scale(1.03);
+
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+
+/* =========================
+   ICON
+========================= */
+
+.why-icon {
+
+    font-size: 50px;
+
+    margin-bottom: 10px;
+}
+
+
+/* =========================
+   HEADING
+========================= */
+
+.why-card h2 {
+
+    font-size: 23px;
+
+    margin: 10px 0;
+}
+
+
+/* =========================
+   TEXT
+========================= */
+
+.why-card p {
+
+    font-size: 15px;
+
+    line-height: 1.6;
+}

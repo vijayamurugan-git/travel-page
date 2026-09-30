@@ -1,0 +1,45 @@
+body {
+    background-image: url("travel-background.svg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    margin: 0;
+    min-height: 100vh;
+
+    font-family: Arial, sans-serif;
+}
+nav {
+    padding: 15px 30px;
+}
+nav h1 {
+    margin: 0;
+}
+nav a {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    font-size: 40px;
+}
+nav a:hover {
+    color: black;
+    background-color: white;
+}
+#about {
+    width: 60%;
+    margin: 60px auto;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+#about h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+#about p {
+    font-size: 18px;
+    line-height: 1.7;
+}

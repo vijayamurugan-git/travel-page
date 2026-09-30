@@ -1,0 +1,151 @@
+/* =========================
+   BODY
+========================= */
+
+body {
+    background-image: url(travel-background.svg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+}
+
+
+/* =========================
+   NAVIGATION
+========================= */
+
+nav {
+padding: 20px
+}
+
+nav a {
+    text-decoration: none;
+
+    color: white;
+    background-color: black;
+
+    font-size: 35px;
+
+    padding: 10px;
+
+    border-radius: 8px;
+
+    transition: 0.4s;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* =========================
+   LOCATIONS SECTION
+========================= */
+
+#locations {
+    color: white;
+
+    text-align: center;
+
+    padding: 30px;
+ text-shadow: 2px 2px 5px black;
+ margin-bottom: 40px;}
+
+
+/* Main heading */
+
+
+
+/* =========================
+   PLACES GRID
+========================= */
+
+.places {
+    display: grid;
+
+    grid-template-columns: repeat(2, 270px);
+
+    gap: 50px;
+}
+
+
+/* =========================
+   LOCATION CARD
+========================= */
+
+.place {
+
+    background-color: rgba(0, 0, 0, 0.75);
+
+    border-radius: 15px;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+
+/* Hover effect */
+
+.place:hover {
+    transform: scale(1.05);
+
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+
+/* =========================
+   VIDEO
+========================= */
+
+.place video {
+    display: block;
+
+    width: 100%;
+
+    height: 250px;
+
+    object-fit: cover;
+}
+
+
+/* =========================
+   TEXT BELOW VIDEO
+========================= */
+
+.place-content {
+    padding: 20px 15px;
+
+    color: white;
+
+    text-align: center;
+}
+
+
+/* Location name */
+
+.place-content h2 {
+    font-size: 24px;
+}
+
+
+/* Description */
+
+.place-content p {
+    font-size: 16px;
+
+    line-height: 1.5;
+
+}
+
+
+/* =========================
+   MALDIVES
+========================= */
+
